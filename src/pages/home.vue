@@ -9,7 +9,9 @@
     <el-button type="warning">Warning</el-button>
     <el-button type="danger">Danger</el-button>
   </el-row>
+  <Chart/>
 </template>
 <script setup>
 import Todolist from "../components/Todolist.vue";
+import Chart from "../components/chart.vue";
 </script>
